@@ -4,6 +4,7 @@ Repositório para atividades da disciplina Organização de Estruturas de Arquiv
 ## Atividades:
 
 - [x] Busca Binária
+- [x] Ordenação por Intercalação 
 
 ## Orientações:
 
@@ -15,6 +16,16 @@ Repositório para atividades da disciplina Organização de Estruturas de Arquiv
     ./busca-binaria [CEP PARA BUSCA]
        
     ```
+* Atividade Ordenação por Intercalação:
+  * Arquivo cep.dat não está nesse repositório.
+  * Utilização (via terminal):
+    ```
+    gcc -o intercala16 intercala16.c
+    ./intercala16
+    
+    ```
+  * Esse algoritmo deleta os arquivos (blocos) utilizados para intercalação e mantém apenas o resultado final, renomeando-o para cep_ordenado.dat. Caso não queira, comente as seguintes linhas do código: 132, 133, 143 e 145.  
+  
 
 ## Referências:
 
